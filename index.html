@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./output.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="nav-bar fixed sm:bg-[#ECEFCA] sm:shadow-sm z-100 sm:px-4 md:px-6 lg:px-8 sm:py-2 md:py-2 w-full sm:flex max-sm:flex-col items-center   font-bold  overflow-hidden">
+    <ul class="logo flex w-full max-sm:text-center items-start max-sm:bg-[#ECEFCA]">
+      <li class="w-full">
+        <a class="block pl-2 pr-4 py-2 max-sm:text-xs max-sm:py-1" href="javascript:void(0);">Mehbub</a>
+      </li>
+    </ul>
+    <ul class="nav-items  max-sm:mb-12 w-full  flex md:gap-8  items-center justify-around sm:justify-end max-sm:text-sm max-sm:bg-[#213448] max-sm:text-[#ECEFCA] ">
+      <li>
+        <a class=" p-2 block" href="#aboutMeSection">About</a>
+      </li>
+      <li>
+        <a class="p-2 block" href="#portfolioSection">Portfolio</a>
+      </li>
+      <li>
+        <a class="p-2 block" href="#contactMeSection">Contact</a>
+      </li>
+    </ul>
+  </div>
+  <div class="container main-section whole-content mx-auto max-md:px-8 px-16 xl:px-32 ">
+    <div class="landing-section flex flex-col pt-28 md:pt-20">
+
+      <div
+        class="hero flex  max-sm:flex-col max-sm:justify-center max-sm:items-center items-center justify-between  overflow-hidden">
+        <div class="hero-txt  font-semibold max-sm:text-center overflow-hidden">
+          <h6 class="lg:pl-2 text-lg lg:text-2xl mb-0 pb-0">I am a creative</h6>
+
+          <h1 class="text-5xl md:text-7xl xl:text-9xl lg:-mt-6 font-extrabold lg:leading-tight">Designer</h1>
+          <h6 class="pl-0.5 lg:pl-2 lg:text-2xl mt-4 lg:mt-6">
+            I Design. I Develop. I Animate. I paint. Let's Create.
+          </h6>
+          <div class="hero-buttons flex gap-3 max-sm:justify-center max-sm:my-8 sm:mt-16 lg:px-2 font-bold">
+            <div class="contact-button">
+              <a class="inline-block border-2 rounded-md py-2 px-4 bg-[#213448] text-[#ECEFCA]"
+                href="#contactMeSection">Contact Me</a>
+            </div>
+            <div class="contact-button">
+              <a class="inline-block border-2 rounded-md py-2 px-4" href="#portfolioSection">View Portfolio</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-img overflow-hidden text-center">
+          <img class="w-2xs overflow-hidden max-sm:-ml-3 max-sm:mt-3 lg:w-md" src="img/mehbub_photo.png" alt=""
+            srcset="" />
+        </div>
+      </div>
+    </div>
+    <div class="my-works-section md:mt-20 mb-28" id="portfolioSection">
+      <h1 class="text-4xl lg:text-6xl text-center mt-16 font-extrabold mb-16">My Works</h1>
+      <div class="portfolio-section flex gap-2 w-full">
+        <div class="sidebar max-sm:hidden sm:w-20% bg-[#547792] max-h-[500px] text-white px-4 py-8 rounded-lg">
+          <div class="sidebar-header flex pl-1 justify-between md:text-2xl font-semibold text-[#ECEFCA] items-center">
+            <h4 class="text-[#ECEFCA]">Portfolio</h4>
+            <a class="text-white" href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-arrow-right-left-icon lucide-arrow-right-left">
+                <path d="m16 3 4 4-4 4" />
+                <path d="M20 7H4" />
+                <path d="m8 21-4-4 4-4" />
+                <path d="M4 17h16" />
+              </svg></a>
+          </div>
+          <div class="sidebar-body">
+            <div class="sidebar-icons"></div>
+            <div class="sidebar-items-container mt-8">
+              <ul>
+                <li
+                  class="sidebar-items flex items-center justify-start mb-1 bg-[#213448] hover:cursor-pointer hover:bg-[#213448] py-2 px-2 lg:px-4 rounded-sm transition-all duration-400 ease-in-out">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-layout-dashboard-icon lucide-layout-dashboard">
+                    <rect width="7" height="9" x="3" y="3" rx="1" />
+                    <rect width="7" height="5" x="14" y="3" rx="1" />
+                    <rect width="7" height="9" x="14" y="12" rx="1" />
+                    <rect width="7" height="5" x="3" y="16" rx="1" />
+                  </svg>
+                  <a href="javascript:void(0);" class="font-semibold ml-2 md:ml-4 ">All</a>
+                </li>
+                <li
+                  class="sidebar-items flex items-center justify-start hover:cursor-pointer hover:bg-[#213448] py-2 px-4 rounded-sm transition-all duration-400 ease-in-out">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-fan-icon lucide-fan">
+                    <path
+                      d="M10.827 16.379a6.082 6.082 0 0 1-8.618-7.002l5.412 1.45a6.082 6.082 0 0 1 7.002-8.618l-1.45 5.412a6.082 6.082 0 0 1 8.618 7.002l-5.412-1.45a6.082 6.082 0 0 1-7.002 8.618l1.45-5.412Z" />
+                    <path d="M12 12v.01" />
+                  </svg>
+                  <a href="javascript:void(0);" class="font-semibold ml-4 ">Logo</a>
+                </li>
+                <li
+                  class="sidebar-items flex items-center justify-start hover:cursor-pointer hover:bg-[#213448] py-2 px-4 rounded-sm transition-all duration-400 ease-in-out">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-layout-list-icon lucide-layout-list">
+                    <rect width="7" height="7" x="3" y="3" rx="1" />
+                    <rect width="7" height="7" x="3" y="14" rx="1" />
+                    <path d="M14 4h7" />
+                    <path d="M14 9h7" />
+                    <path d="M14 15h7" />
+                    <path d="M14 20h7" />
+                  </svg>
+                  <a href="javascript:void(0);" class="font-semibold ml-4 ">UI/UX</a>
+                </li>
+                <li
+                  class="sidebar-items flex items-center justify-start hover:cursor-pointer hover:bg-[#213448] py-2 px-4 rounded-sm transition-all duration-400 ease-in-out">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-panels-top-left-icon lucide-panels-top-left">
+                    <rect width="18" height="18" x="3" y="3" rx="2" />
+                    <path d="M3 9h18" />
+                    <path d="M9 21V9" />
+                  </svg>
+                  <a href="javascript:void(0);" class="font-semibold ml-4 ">Web Design</a>
+                </li>
+                <li
+                  class="sidebar-items flex items-center justify-start hover:cursor-pointer hover:bg-[#213448] py-2 px-4 rounded-sm transition-all duration-400 ease-in-out">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-spline-pointer-icon lucide-spline-pointer">
+                    <path
+                      d="M12.034 12.681a.498.498 0 0 1 .647-.647l9 3.5a.5.5 0 0 1-.033.943l-3.444 1.068a1 1 0 0 0-.66.66l-1.067 3.443a.5.5 0 0 1-.943.033z" />
+                    <path d="M5 17A12 12 0 0 1 17 5" />
+                    <circle cx="19" cy="5" r="2" />
+                    <circle cx="5" cy="19" r="2" />
+                  </svg>
+                  <a href="javascript:void(0);" class="font-semibold ml-4 ">Graphics</a>
+                </li>
+                <li
+                  class="sidebar-items flex items-center justify-start hover:cursor-pointer hover:bg-[#213448] py-2 px-4 rounded-sm transition-all duration-400 ease-in-out">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-activity-icon lucide-activity">
+                    <path
+                      d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2" />
+                  </svg>
+                  <a href="javascript:void(0);" class="font-semibold ml-4 ">Animation</a>
+                </li>
+                <li
+                  class="sidebar-items flex items-center justify-start hover:cursor-pointer hover:bg-[#213448] py-2 px-4 rounded-sm transition-all duration-400 ease-in-out">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-palette-icon lucide-palette">
+                    <path
+                      d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z" />
+                    <circle cx="13.5" cy="6.5" r=".5" fill="currentColor" />
+                    <circle cx="17.5" cy="10.5" r=".5" fill="currentColor" />
+                    <circle cx="6.5" cy="12.5" r=".5" fill="currentColor" />
+                    <circle cx="8.5" cy="7.5" r=".5" fill="currentColor" />
+                  </svg>
+                  <a href="javascript:void(0);" class="font-semibold ml-4 ">Paintings</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-viewer w-full sm:w-[85%] grid gap-2 max-h-[500px] overflow-y-scroll scrollbar">
+          <!-- Painting-1 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-1.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-2 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-2.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-3 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-3.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-4 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-4.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-5 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-5.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-6 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-6.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-7 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-7.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-8 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-8.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-9 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-9.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-10 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-10.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-11 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-11.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-12 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-12.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-13 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-13.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-14 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-14.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-15 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-15.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-16 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-16.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-17 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-17.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-18 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-18.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-19 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-19.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-20 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-20.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-21 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-21.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-22 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-22.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-23 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-23.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-24 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-24.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-25 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-25.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-26 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-26.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-27 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-27.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-28 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-28.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-29 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-29.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Painting-30 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Paintings/Painting-30.jpg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-1 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-1.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-2 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-2.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-3 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-3.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-4 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-4.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-5 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-5.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-6 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-6.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-7 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-7.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-8 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-8.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-9 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-9.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-10 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-10.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-11 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-11.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-12 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-12.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-13 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-13.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-14 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-14.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-15 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-15.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-16 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-16.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-17 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-17.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-18 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-18.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-19 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-19.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-20 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-20.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-21 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-21.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+
+  <!-- Logo-22 -->
+  <div class="relative portfolio-img rounded-md bg-white min-h-[250px] bg-[url(./img/Logos/Logo-22.jpeg)] bg-contain  bg-center bg-no-repeat group hover:cursor-pointer">
+    <div class="absolute inset-0 rounded-sm bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+  </div>
+        </div>
+      </div>
+    </div>
+    <div class="about-me-section" id="aboutMeSection">
+      <h1 class="text-4xl lg:text-6xl font-extrabold text-center max-sm:mb-8 sm:mb-20">Know Me</h1>
+      <div class="about-container flex gap-4 xl:gap-32 max-sm:flex-col max-sm:justify-center w-full ">
+        <div class="about-img mx-auto my-auto  ">
+          <img class="max-sm:w-2xs w-lg   lg:w-lg xl:w-xl" src="./img/mehbub_photo.png" alt="" srcset="" />
+        </div>
+        <div class="about-content  max-sm:w-full flex flex-col">
+          <div
+            class="about-buttons flex font-semibold sm:font-bold  max-sm:gap-1 sm:gap-4 max-sm:justify-center justify-start text-sm mb-8 md:text-lg w-full">
+            <a class="about-btn xl:min-w-40 text-center inline-block border-2 rounded-md py-2 px-3 sm:px-4 bg-[#213448] text-[#ECEFCA]"
+              href="javascript:void(0);">About</a>
+            <a class="experience-btn xl:min-w-40 text-center inline-block border-2 rounded-md py-2 px-3 sm:px-4"
+              href="javascript:void(0);">Experience</a>
+            <a class="education-btn xl:min-w-40 text-center  inline-block border-2 rounded-md py-2 px-3 sm:px-4"
+              href="javascript:void(0);">Education</a>
+          </div>
+          <div class="about-body w-full max-sm:p-2 sm:py-4  rounded-sm">
+            <h1 class="lg:pl-4 md:text-2xl font-semibold max-sm:text-center ">About Me</h1>
+            <p class="lg:pl-4 w-full text-sm sm:text-lg mt-2 font-semibold ">
+              I'm a designer creating impactful visuals through UI/UX, logo,
+              and product design, blending aesthetics with function in web and
+              graphic work. I also explore traditional painting, guided by a
+              sharp eye for detail.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="services-section my-20" id="servicesSection">
+      <h1 class="text-4xl lg:text-6xl text-center font-extrabold mb-12 md:mb-20">Services</h1>
+      <div class="services-container">
+        <div class="service-content flex max-md:flex-col gap-8 justify-center md:flex mb-12 md:mb-20">
+          <div class="services-text md:w-[70%]">
+            <h1 class="text-2xl font-semibold">Services I offer</h1>
+            <p class="text-md font-semibold mt-2">
+              I offer UI/UX design, logo design, product design, website
+              development, graphic design, and traditional painting. From
+              digital experiences to visual art, I bring creative ideas to
+              life with precision and style.
+            </p>
+          </div>
+          <div class="services-projects flex items-center md:w-[30%] gap-4 justify-around">
+            <div class="project">
+              <div class="project-count flex p-4 w-20 h-20 justify-center items-center rounded-full bg-[#213448]">
+                <h1 class="text-white text-center font-extrabold self-center">
+                  70+
+                </h1>
+              </div>
+
+              <h1 class="text-center mt-2 font-extrabold">Projects</h1>
+            </div>
+
+            <div class="client">
+              <div class="client-count flex p-4 w-20 h-20 justify-center items-center rounded-full bg-[#213448]">
+                <h1 class="text-white text-center font-extrabold self-center">
+                  51+
+                </h1>
+              </div>
+
+              <h1 class="text-center mt-2 font-extrabold">Clients</h1>
+            </div>
+          </div>
+        </div>
+        <div class="service-cards grid gap-4 text-center text-[#547792] lg:justify-around"
+          style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr))">
+          <div
+            class="service-card pt-8 bg-[#EBEBEB] drop-shadow-md rounded-lg text-center flex flex-col justify-center items-center py-4 px-6 hover:-mt-4 hover:mb-4 transition-all duration-800 ease-in-out group hover:bg-[#94B4C1] hover:text-[#213448]">
+            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#547792" stroke-width="1"
+              stroke-linecap="round" stroke-linejoin="round" class="">
+              <rect width="18" height="18" x="3" y="3" rx="2" />
+              <path d="M3 9h18" />
+              <path d="M9 21V9" />
+            </svg>
+            <h1 class="text-xl font-medium mb-6 mt-2">Web Design</h1>
+            <a class="inline-block py-2 px-4 rounded-md font-semibold mb-6 group-hover:bg-[#213448] text-white bg-[#547792] transition-all duration-800 ease-in-out"
+              href="#contactMeSection">Get Started</a>
+          </div>
+          <div
+            class="service-card pt-8 bg-[#EBEBEB] drop-shadow-md rounded-lg text-center flex flex-col basis-4xs justify-center items-center py-4 px-6 group hover:-mt-4 hover:mb-4 transition-all duration-800 ease-in-out hover:bg-[#94B4C1] hover:text-[#213448]">
+            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#547792" stroke-width="1"
+              stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-layout-dashboard-icon lucide-layout-dashboard">
+              <rect width="7" height="9" x="3" y="3" rx="1" />
+              <rect width="7" height="5" x="14" y="3" rx="1" />
+              <rect width="7" height="9" x="14" y="12" rx="1" />
+              <rect width="7" height="5" x="3" y="16" rx="1" />
+            </svg>
+            <h1 class="text-xl font-medium mb-6 mt-2">UI/UX</h1>
+            <a class="inline-block py-2 px-4 rounded-md font-semibold mb-6 group-hover:bg-[#213448] hover:bg-[#213448] text-white bg-[#547792] transition-all duration-800 ease-in-out"
+              href="#contactMeSection">Get Started</a>
+          </div>
+          <div
+            class="service-card pt-8 bg-[#EBEBEB] hover:drop-shadow-xl drop-shadow-md rounded-lg text-center flex flex-col basis-4xs justify-center items-center py-4 px-6 xl:-mt-4 xl:mb-4 xl:hover:mt-0 xl:hover:-mb-0 transition-all duration-800 ease-in-out xl:bg-[#94B4C1] group hover:text-[#213448]">
+            <svg width="60" height="60" viewBox="0 0 256 256" stroke="#547792" class="text-[#213448]">
+              <path fill="#547792"
+                d="M244.1 122.63a13.56 13.56 0 0 0-8.3-6.4a72.62 72.62 0 0 0-24.17-2c4.67-20.63 1.62-36.91-1.45-46.4a14.16 14.16 0 0 0-16.48-9.53a84.21 84.21 0 0 0-29.76 13.11a92.6 92.6 0 0 0-27.52-34.6a14 14 0 0 0-16.85 0a92.7 92.7 0 0 0-27.51 34.6A84.16 84.16 0 0 0 62.29 58.3a14.15 14.15 0 0 0-16.47 9.54c-3.07 9.49-6.12 25.77-1.45 46.4a72.62 72.62 0 0 0-24.17 2a13.56 13.56 0 0 0-8.3 6.4a14 14 0 0 0-1.4 10.74C13.81 145.66 24 169 54.92 187.51S113.29 206 128 206s42.12 0 73.06-18.49s41.11-41.85 44.42-54.14a14 14 0 0 0-1.38-10.74ZM168.48 82.9A73.1 73.1 0 0 1 196.22 70a2.2 2.2 0 0 1 2.54 1.5c3.94 12.22 7.81 37.5-10.59 69.5a129.75 129.75 0 0 1-28 33.37C167.85 161 174 142.93 174 119.17a116.13 116.13 0 0 0-5.52-36.27ZM57.24 71.53A2.2 2.2 0 0 1 59.78 70a73.1 73.1 0 0 1 27.74 12.9A116.13 116.13 0 0 0 82 119.17c0 23.76 6.15 41.85 13.81 55.17a129.58 129.58 0 0 1-28-33.37C49.43 109 53.3 83.72 57.24 71.53Zm3.84 105.67c-27.3-16.31-36.15-36.42-39-47a2.08 2.08 0 0 1 .21-1.61a1.71 1.71 0 0 1 1-.8A62.16 62.16 0 0 1 48 126.72A126.25 126.25 0 0 0 57.43 147a141 141 0 0 0 41 44.72a114.83 114.83 0 0 1-37.35-14.52ZM128 192.86c-8.68-6.2-34-28.2-34-73.69c0-43.36 22.94-65.34 32.8-72.78a2 2 0 0 1 2.4 0c9.86 7.44 32.8 29.42 32.8 72.78c0 45.77-25.19 67.5-34 73.69Zm105.9-62.62c-2.85 10.54-11.7 30.65-39 47a114.83 114.83 0 0 1-37.38 14.47a141 141 0 0 0 41-44.72a126.25 126.25 0 0 0 9.48-20.27a62.16 62.16 0 0 1 24.73 1.11a1.71 1.71 0 0 1 1 .8a2.08 2.08 0 0 1 .19 1.61Z" />
+            </svg>
+            <h1 class="text-xl font-medium mb-6 mt-2">Logo Design</h1>
+            <a class="inline-block py-2 px-4 rounded-md font-semibold mb-6 group-hover:bg-[#213448] hover:bg-[#213448] text-white bg-[#547792] transition-all duration-800 ease-in-out"
+              href="#contactMeSection">Get Started</a>
+          </div>
+          <div
+            class="service-card pt-8 bg-[#EBEBEB] drop-shadow-md rounded-lg text-center flex flex-col basis-4xs justify-center items-center py-4 px-6 group hover:-mt-4 hover:mb-4 transition-all duration-800 ease-in-out hover:bg-[#94B4C1] hover:text-[#213448]">
+            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#547792" stroke-width="1"
+              stroke-linecap="round" stroke-linejoin="round" class="">
+              <path
+                d="M12.034 12.681a.498.498 0 0 1 .647-.647l9 3.5a.5.5 0 0 1-.033.943l-3.444 1.068a1 1 0 0 0-.66.66l-1.067 3.443a.5.5 0 0 1-.943.033z" />
+              <path d="M5 17A12 12 0 0 1 17 5" />
+              <circle cx="19" cy="5" r="2" />
+              <circle cx="5" cy="19" r="2" />
+            </svg>
+            <h1 class="text-lg font-medium mb-6 mt-2">Graphic Design</h1>
+            <a class="inline-block py-2 px-4 rounded-md font-semibold mb-6 group-hover:bg-[#213448] hover:bg-[#213448] text-white bg-[#547792] transition-all duration-800 ease-in-out"
+              href="#contactMeSection">Get Started</a>
+          </div>
+          <div
+            class="service-card pt-8 bg-[#EBEBEB] drop-shadow-md rounded-lg text-center flex flex-col basis-4xs justify-center items-center py-4 px-6 group hover:-mt-4 hover:mb-4 transition-all duration-800 ease-in-out hover:bg-[#94B4C1] hover:text-[#213448]">
+            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#547792" stroke-width="1"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z" />
+              <circle cx="13.5" cy="6.5" r="1" fill="#547792" />
+              <circle cx="17.5" cy="10.5" r="1" fill="#547792" />
+              <circle cx="6.5" cy="12.5" r="1" fill="#547792" />
+              <circle cx="8.5" cy="7.5" r="1" fill="#547792" />
+            </svg>
+            <h1 class="text-xl font-medium mb-6 mt-2">Painting</h1>
+            <a class="inline-block py-2 px-4 rounded-md font-semibold mb-6 group-hover:bg-[#213448] hover:bg-[#213448] text-white bg-[#547792] transition-all duration-800 ease-in-out"
+              href="#contactMeSection">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-section mt-32">
+      <h1 class="text-4xl lg:text-6xl font-extrabold text-center mb-24">Testimonials</h1>
+      <div class="testimonial-container grid gap-6 mb-16 justify-items-center">
+        <div
+          class="testimonial-card flex flex-col items-center justify-center max-sm:px-8 max-sm:py-8 overflow-hidden transition-all duration-800 ease-in-out  px-16 py-12 rounded-xl bg-[#94B4C1] shadow-xl max-h-[65vh] hover:scale-y-105 max-sm:bg-white hover:bg-white hover:z-10">
+          <p class="italic">
+            "Mehbub transformed our app's UI/UX, creating an intuitive, stunning interface. The seamless user flow and
+            modern design boosted engagement metrics. His ability to translate user needs into elegant solutions is
+            truly remarkable."
+          </p>
+          <div class="testimonial-user flex justify-start items-center mt-8 ">
+            <div class="testimonial-img w-28 rounded-full overflow-hidden mr-4">
+              <img src="img/testimonial-user1.jpg" alt="" />
+            </div>
+            <div class="testimonial-user-info">
+              <h4 class="testimonial-user-name text-lg font-semibold ">David Goliath</h4>
+              <h5 class="testimonial-user-address text-sm font-semibold">Miami, USA</h>
+            </div>
+          </div>
+        </div>
+        <div
+          class="testimonial-card overflow-hidden  transition-all duration-800 ease-in-out flex flex-col items-center justify-center max-sm:px-8 max-sm:py-8 px-16 py-12 rounded-xl xl:bg-white shadow-xl max-h-[65vh] group xl:scale-y-105 hover:scale-y-105 bg-[#94B4C1] hover:bg-white xl:hover:bg-[#94B4C1] hover:z-10">
+          <p class="italic">
+            "Mehbub exceeded all expectations with our new logo. He truly captured our brand's essence in a powerful,
+            timeless, and contemporary emblem. His collaborative process resulted in a design that's already elevating
+            our presence and deeply resonating with our audience. Highly recommend for impactful brand identity!"
+          </p>
+          <div class="testimonial-user flex justify-start items-center mt-8  ">
+            <div class="testimonial-img w-28 rounded-full overflow-hidden mr-4">
+              <img src="img/testimonial-user3.jpg" alt="" />
+            </div>
+            <div class="testimonial-user-info">
+              <h4 class="testimonial-user-name text-lg font-semibold ">Sydney Sweeney</h4>
+              <h5 class="testimonial-user-address text-sm font-semibold">Las Vegas, USA</h>
+            </div>
+          </div>
+        </div>
+        <div
+          class="testimonial-card flex flex-col items-center justify-center overflow-hidden max-sm:px-8 max-sm:py-8  transition-all duration-800 ease-in-out  px-16 py-12 rounded-xl bg-[#94B4C1] shadow-xl max-h-[65vh] hover:scale-y-105 hover:bg-white hover:z-10 place-self-center justify-items-center max-lg:last:col-span-full max-lg:last:mx-auto">
+          <p class="italic">
+            "I commissioned Mehbub for a portrait of my partner and me, and the result is breathtaking. He beautifully
+            conveyed our unique connection and warmth. The extraordinary attention to detail, vibrant colors, and
+            emotional depth make it more than art; it's a cherished representation of our love. An incredibly talented
+            artist!"
+          </p>
+          <div class="testimonial-user flex justify-start items-center mt-8 ">
+            <div class="testimonial-img w-28 rounded-full overflow-hidden mr-4">
+              <img src="img/testimonial-user2.jpg" alt="" />
+            </div>
+            <div class="testimonial-user-info">
+              <h4 class="testimonial-user-name text-lg font-semibold ">Bob Marley</h4>
+              <h5 class="testimonial-user-address text-sm font-semibold">Paris, France</h>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-poniter flex gap-2 items-center justify-center mb-12">
+        <div class="testimonial-point w-14 h-2 bg-[#94B4C1] rounded-full"></div>
+        <div class="testimonial-point w-16 h-2 bg-[#213448] rounded-full"></div>
+        <div class="testimonial-point w-14 h-2 bg-[#94B4C1] rounded-full"></div>
+      </div>
+    </div>
+  </div>
+  <div class="contact-me-section bg-[#213448] text-white" id="contactMeSection">
+    <div class="container mx-auto max-md:px-8 px-16 py-16 xl:px-32 ">
+      <div class="contact-me-wrapper flex justify-between max-md:flex-col-reverse">
+        <div class="contact-me-content md:w-[50%] pr-4 lg:pr-16 text-[#ECEFCA]">
+          <h1 class="text-3xl font-bold mb-8">Contact Me</h1>
+          <p class="font-semibold">I am regularly available online and welcome you to contact me with any inquiries or work requirements. Please feel free to send me a message</p>
+          <ul class="mt-4 md:mt-8 flex flex-col gap-2 ">
+            <li><a class="hover:text-white" href="https://maps.app.goo.gl/aQFWKU2bL1FqvaUh6">📌 Guwahati, Assam, India </a></li>
+            <li><a class="hover:text-white" href="mailto:mealam39@gmail.com">📧 mealam39@gmail.com</a></li>
+            <li><a class="hover:text-white" href="tel:+918638748113">📞 +91-8638748113</a></li>
+          </ul>
+        </div>
+        <div class="contact-me-form my-4 md:w-[50%] pl-4 lg:pl-16 max-md:mb-12">
+          <form action="#" class="flex flex-col gap-4">
+            <input class="bg-[#ECEFCA] focus:outline-none py-2 px-4 rounded-sm text-[#213448] font-bold" placeholder="Your Name" type="text" name="contactName" id="contactName" required>
+            <input class="bg-[#ECEFCA] focus:outline-none py-2 px-4 rounded-sm text-[#213448] font-bold" placeholder="Your Email"  type="email" name="contactEmail" id="contactEmail" required>
+            <textarea class="bg-[#ECEFCA] focus:outline-none py-2 px-4 rounded-sm text-[#213448] font-bold" placeholder="Write your message" name="contactMessage" id="contactMessage" cols="30" rows="8"></textarea>
+            <button class="px-4 py-2 max-w-fit bg-[#547792] rounded-sm hover:bg-[#6591c0] hover:cursor-pointer transition-all duration-400 ease-in-out" type="submit">Contact Me</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="footer-section bg-[#101923] text-white ">
+    <div class="container text-center mx-auto max-md:px-8 py-16 px-16 xl:px-32 text-[#547792]">
+      <h6>Mehbub Alam</h6>
+      <h6>©️ 2025</h6>
+    </div>
+  </div>
+</body>
+
+</html>
